@@ -68,7 +68,7 @@ void reservation::insert()              // Function for inserting a new passenge
     cout << "Enter seat number: ";
     cin >> newPassenger.seatNumber;             // Seat number
     cout << "Enter menu preference: "; 
-    cin.ignore();                               // cib.ignore() used for similar reasons as before
+    cin.ignore();                               // cin.ignore() used for similar reasons as before
     getline(cin, newPassenger.menuPreference);  // Menu request
 
     mine.insertPassenger(newPassenger);         // All passenger information is obtained, insert passenger into list
